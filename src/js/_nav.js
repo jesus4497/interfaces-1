@@ -10,6 +10,11 @@ export default {
       },
     },
     {
+      name: 'Informacion',
+      url: '/informacion',
+      icon: 'icon-info',
+    },
+    {
       title: true,
       name: 'Solicitudes',
       wrapper: {            // optional wrapper object
@@ -20,12 +25,12 @@ export default {
     },
     {
       name: 'Liberacion Articulo 58',
-      url: '/theme/colors',
+      url: '/INGRESAURL',
       icon: 'icon-drop',
     },
     {
       name: 'Peticion Estudiantil',
-      url: '/theme/typography',
+      url: '/INGRESAURL',
       icon: 'icon-pencil',
     },
     {
@@ -38,12 +43,12 @@ export default {
     },
     {
       name: 'Inscripcion Acad.',
-      url: '/base',
+      url: '/INGRESAURL',
       icon: 'icon-puzzle',
     },
     {
       name: 'Adicion, Cambio o Retiro',
-      url: '/base',
+      url: '/INGRESAURL',
       icon: 'icon-puzzle',
     },
     {
@@ -64,7 +69,21 @@ export default {
           url: '/datos/horario-seccion',
           icon: 'icon-cursor',
         },
-       
+        {
+          name: 'OPCIONES',
+          url: '/INGRESAURL',
+          icon: 'icon-cursor',
+        },
+        {
+          name: 'OPCIONES',
+          url: '/INGRESAURL',
+          icon: 'icon-cursor',
+        },
+        {
+          name: 'OPCIONES',
+          url: '/INGRESAURL',
+          icon: 'icon-cursor',
+        },
       ],
     },
     {
@@ -78,30 +97,30 @@ export default {
           icon: 'icon-cursor',
         },
         {
-          name: 'Situacion Academica',
-          url: '/buttons/button-dropdowns',
+          name: 'OPCIONES',
+          url: '/INGRESAURL',
           icon: 'icon-cursor',
         },
         {
-          name: 'Notas Parciales',
-          url: '/buttons/button-groups',
+          name: 'OPCIONES',
+          url: '/INGRESAURL',
           icon: 'icon-cursor',
         },
       ],
     },
     {
       name: 'Datos Administrativos',
-      url: '/buttons',
+      url: '/INGRESAURL',
       icon: 'icon-cursor',
       children: [
         {
-          name: 'Buttons',
-          url: '/buttons/buttons',
+          name: 'OPCIONES',
+          url: '/INGRESAURL',
           icon: 'icon-cursor',
         },
         {
-          name: 'Button dropdowns',
-          url: '/buttons/button-dropdowns',
+          name: 'OPCIONES',
+          url: '/INGRESAURL',
           icon: 'icon-cursor',
         },
       ],

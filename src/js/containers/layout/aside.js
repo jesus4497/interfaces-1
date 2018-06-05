@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, NavItem, NavLink, Progress, TabContent, TabPane, ListGroup, ListGroupItem } from 'reactstrap';
+import { Nav, NavItem, NavLink, TabContent, TabPane, ListGroup, ListGroupItem } from 'reactstrap';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { AppSwitch } from '@coreui/react'
@@ -240,7 +240,7 @@ class Aside extends Component {
                         <div className="aside-options">
                             <div className="clearfix mt-4">
                                 <small><b>Modo Daltonico</b></small>
-                                <AppSwitch className={'float-right'} variant={'pill'} label color={'success'} defaultChecked size={'sm'} />
+                                <AppSwitch className={'float-right'} variant={'pill'} label color={'primary'} defaultChecked size={'sm'} />
                             </div>
                             <div>
                                 <small className="text-muted">Hemos creado un modo especial para que los usuarios aquejados de deuteranopia (daltonismo  azul-rojo) puedan distinguir mejor las barras de las opciones como tambien las notificaciones.
@@ -251,7 +251,7 @@ class Aside extends Component {
                         <div className="aside-options">
                             <div className="clearfix mt-3">
                                 <small><b>Opcion 2</b></small>
-                                <AppSwitch className={'float-right'} variant={'pill'} label color={'success'} size={'sm'} />
+                                <AppSwitch className={'float-right'} variant={'pill'} label color={'primary'} size={'sm'} />
                             </div>
                             <div>
                                 <small className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

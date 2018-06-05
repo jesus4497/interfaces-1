@@ -8,10 +8,7 @@
     
 }
 
-.tableHistorico{
-    background-color: #333B41;
 
-}
 
 .horarioStyle{
 
@@ -41,8 +38,6 @@
 }
 
 .tableHorario{
-    text-align: center;
-    background-color: #F2F3F2;
-    width: 1000px;
+    border:1px solid grey;
     
 }

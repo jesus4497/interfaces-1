@@ -22,9 +22,7 @@ import Aside from './aside';
 import Footer from './footer';
 import Header from './header';
 
-
-
-class DefaultLayout extends Component {
+class Layout extends Component {
     render() {
         return (
             <div className="app">
@@ -48,10 +46,9 @@ class DefaultLayout extends Component {
                                         <route.component {...props} />
                                     )} />)
                                         : (null);
-                                       
                                 },
                                 )}
-                                <Redirect from="/" to="/prueba" />
+                                <Redirect from="/" to="/inicio" />
                             </Switch>
                         </Container>
                     </main>
@@ -67,4 +64,4 @@ class DefaultLayout extends Component {
     }
 }
 
-export default DefaultLayout;
+export default Layout;

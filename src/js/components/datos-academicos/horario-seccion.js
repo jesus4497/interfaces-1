@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Container, Row, Col, Button, InputGroup, InputGroupAddon, Fade } from 'reactstrap';
+import { Table, Container, Row, Col, Button, InputGroup, Fade } from 'reactstrap';
 import './datos-academicos.css';
 
 class Horario extends React.Component {
@@ -21,9 +21,9 @@ class Horario extends React.Component {
         
         if(this.state.schedule){
             horario = (
-                <Table bordered className="tableHorario" >
+                <Table bordered  >
                 <thead>
-                    <tr>
+                    <tr className="tableHorario">
                         <th className="prueba" >Sesion</th>
                         <th className="prueba">Lunes</th>
                         <th className="prueba">Martes</th>

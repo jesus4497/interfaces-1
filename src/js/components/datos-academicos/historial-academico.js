@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table, Container, Row, Col } from 'reactstrap';
-import style1 from './datos-academicos.css'
+import { Table, Container,  Col } from 'reactstrap';
+import  './datos-academicos.css'
 
 class Historial extends React.Component {
     
@@ -19,7 +19,7 @@ class Historial extends React.Component {
       <Container className="border "> 
           <br />
         <Container style={style}> <Col  md="12"> Periodo: 20181CR </Col> </Container> 
-        <Table size="sm" className="tableHistorico" >
+        <Table size="sm">
             <thead>
             <tr>
                 <th>Car.</th>
@@ -81,7 +81,7 @@ class Historial extends React.Component {
          <hr />
          <br />
         <Container style={style}> <Col  md="12"> Periodo:  20173CR </Col> </Container> 
-        <Table size="sm" d>
+        <Table size="sm" >
             <thead>
             <tr>
                 <th>Car.</th>
